@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guerreiros da info</title>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/styleChat.css">
+</head>
+<body>
+    <header>
+        <h1>GigaChat</h1>
+        <i class="bi bi-gear-fill" id="btnConfig"></i>
+    </header>
+    <main>
+        <div id="colunaConfig">
+            <button class="bi bi-x" id="botaoFecharConfig"></button>
+            <img id="colunaConfig__pfp" src="./assests/Ellipse 3.svg" alt="">
+            <h2 id="colunaConfig__nome">Claudio</h2>
+            <nav>
+                <ul>
+                    <li><button class="colunaConfig__btn"><i class="bi bi-bell-fill"></i><a>Notificações</a></button></li>
+                    <li><button class="colunaConfig__btn"><i class="bi bi-lock-fill"></i><a>Privacidade</a></button></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="colunaNav">
+        <nav>
+            <ul>
+                <li class="colunaNav__chat">
+                    <img src="./assests/Ellipse 1.svg" alt="">
+                    <div class="texto">
+                    <a>Guerreiros da info</a>
+                    <p>Você: oie gente tudo bem com vocês?</p>
+                </div>
+                </li>
+            </ul>
+            </nav>
+            <button id="botaoCriarChat"><i class="bi bi-plus-circle"></i></button>
+    </div>
+    <div id="chat">
+        <div class="mensagem">
+        <img class="fotoPerfilMensagem" src="./assests/Ellipse 3.svg" alt="">
+        <p class="mensagemTexto">Oie gente tudo bem com vocês? <span class="horarioMensagem" >17:59</span></p>
+    </div>
+    </div>
+    </main>
+    <footer></footer>
+    <!-- JS -->
+    <script src="./script/index.js"></script>
+</body>
+</html>

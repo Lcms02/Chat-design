@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #AD8B73;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+}
+
+header h1,
+.bi-gear-fill{
+    margin: 20px;
+    font-size: 2rem;
+}
+
+.bi-gear-fill{
+    cursor: pointer;
+}
+
+main{
+    background-color: #FFFBE9;
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#colunaNav{
+    background-color: #AD8B73;
+    width: 15vw;
+    height: 92.1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main nav ul{
+    list-style: none;
+}
+
+.colunaNav__chat{
+    padding: 5px;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #E3CAA5;
+    display: flex;
+    align-items: center;
+}
+
+.colunaNav__chat p{
+    margin-left: 10px;
+    font-size: 0.7rem;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#botaoCriarChat{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #E3CAA5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#chat{
+    background-color: #FFFBE9;
+    width: 90vw;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mensagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+}
+
+.fotoPerfilMensagem{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.mensagemTexto{
+    width: 12vw;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #E3CAA5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.horarioMensagem{
+    font-size: 0.7rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #E3CAA5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#colunaConfig{
+    background-color: #AD8B73;
+    width: 15vw;
+    height: 92.1vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#colunaConfig__pfp{
+    width: 8vw;
+    height: 8vw;
+}
+
+#colunaConfig__nome{
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.colunaConfig__btn{
+    margin: 10px;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#botaoFecharConfig{
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    background: none;
+    right: auto;
+    border: none;
+    border-radius: 5px;
+    padding-left: 11vw;
+    cursor: pointer;
+}
